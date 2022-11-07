@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TEDDY</title>
+	<link rel="stylesheet" type="text/css" href="css/teddy.css">
+</head>
+<body>
+<div class="container">
+	<div class="nav-bar">
+		<!-- TOGGLE MENU -->
+		<div class="toggle-menu">
+
+			<div class="line line1"></div>
+			<div class="line line2"></div>
+			<div class="line line3"></div>
+
+		</div>
+		<div class="nav-list">
+			<li class="nav-list-item"><a href="#" class="nav-link"></a>home</li>
+			<li class="nav-list-item"><a href="#" class="nav-link"></a>about</li>
+			<li class="nav-list-item"><a href="#" class="nav-link"></a>project</li>
+			<li class="nav-list-item"><a href="#" class="nav-link"></a>help</li>
+			<li class="nav-list-item"><a href="#" class="nav-link"></a>client</li>
+			<li class="nav-list-item"><a href="#" class="nav-link"></a>contact</li>
+		</div>		
+	</div>
+</div>
+
+<!-- <script type="text/javascript" src="javascript.js"></script> -->
+	
+<script>
+
+const toggleButton = document.querySelector('.toggle-menu');
+const navar = document.querySelector('.nav-bar');
+
+toggleButton.addEventListener('click', () => {
+  navar.classList.toggle('active');
+});
+	
+</script>
+
+</script>
+</body>
+</html>
